@@ -1,1 +1,1 @@
-A text-based Java program that has the ability to create and run variables, applications, and functions with respect to lambda calculus. Completed with Sebastian Wittrock
+A text-based Java program that has the ability to create and run variables, applications, and functions with respect to lambda calculus. Completed with Sebastian Wittrock as a project for Advanced Topics in Computer Science (ATICS).
