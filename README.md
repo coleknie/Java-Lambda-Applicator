@@ -1,7 +1,7 @@
 A text-based Java program that has the ability to create and run variables, applications, and functions with respect to lambda calculus. Completed with Sebastian Wittrock as a project for Advanced Topics in Computer Science (ATICS).
 
 Test Cases:
-
+```
 0 = \f.\x.x
 
 succ = \n.\f.\x.f (n f x)
@@ -41,3 +41,4 @@ odd? = \x.not (even? x)
 run even? 0
 
 run even? 5
+```
