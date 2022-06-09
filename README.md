@@ -3,8 +3,11 @@ A text-based Java program that has the ability to create and run variables, appl
 Test Cases:
 
 0 = \f.\x.x
+
 succ = \n.\f.\x.f (n f x)
+
 1 = run succ 0
+
 + = λm.λn.λf.λx.(m f) ((n f) x)
 * = λn.λm.λf.λx.n (m f) x
 2 = run succ 1
