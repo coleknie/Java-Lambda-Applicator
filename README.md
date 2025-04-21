@@ -1,7 +1,26 @@
-A text-based Java program that has the ability to create and run variables, applications, and functions with respect to lambda calculus. Completed with Sebastian Wittrock as a project for Advanced Topics in Computer Science (ATICS).
+# Lambda Calculus Interpreter in Java
 
-Test Cases:
-```
+A text-based Java program that allows users to define and evaluate variables, functions, and applications using the principles of **lambda calculus**.  
+This project was completed in collaboration with **Sebastian Wittrock** as part of the course *Advanced Topics in Computer Science (ATICS)*.
+
+## 🧠 Project Description
+
+The interpreter provides a minimalistic yet powerful environment for working with lambda calculus expressions. It supports:
+
+- Variable creation
+- Named lambda expressions
+- Function application and evaluation
+- Arithmetic operations using Church numerals
+- Logical operations (`not`, `even?`, `odd?`)
+- Function composition
+
+The core of the system interprets lambda expressions and supports chaining and nesting of operations consistent with lambda calculus semantics.
+
+## ✅ Sample Test Cases
+
+The following are examples of valid input and expected functionality in the interpreter:
+
+```text
 0 = \f.\x.x
 
 succ = \n.\f.\x.f (n f x)
@@ -42,3 +61,18 @@ run even? 0
 
 run even? 5
 ```
+
+These demonstrate the program’s ability to evaluate lambda calculus constructs such as:
+
+- **Church numerals** (`0`, `1`, `2`, etc.)
+- **Arithmetic operations** (`succ`, `+`, `*`, `pred`, `-`)
+- **Logical operations** (`not`, `even?`, `odd?`)
+
+## 🧪 Usage
+
+Launch the interpreter via the command line and type in definitions or `run` statements as shown above. The parser handles chained and nested applications, and definitions persist through the session.
+
+## 👥 Authors
+
+- **Cole Knie**
+- **Sebastian Wittrock**
